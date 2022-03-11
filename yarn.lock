@@ -2206,10 +2206,10 @@
     lodash "^4.17.11"
     node-jose "^2.0.0"
 
-"@tryghost/members-csv@^1.2.6":
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/@tryghost/members-csv/-/members-csv-1.2.6.tgz#703c8fc0d79a4b5fef95a64081cab08a655f44c1"
-  integrity sha512-mK0ath8GUUaw/HO3/pwV2tBt4cFPxC372CIqc0EdypD0/AJKrOHRLIhqUE4VZ5qMtzAC43RFEFZM3rNay0cQHw==
+"@tryghost/members-csv@^1.2.7":
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/@tryghost/members-csv/-/members-csv-1.2.7.tgz#74320989ed3d616685d01e968588d2d89713ab0e"
+  integrity sha512-Ea4qjezj+BU5HIq8jepcAHCu4hJJHgBX2V9peXJ3IooBMr0cKK64a93ZLcA+5uep8GdpA04/dF4VV1AQh/N9ew==
   dependencies:
     bluebird "^3.7.2"
     fs-extra "^10.0.0"
@@ -2226,13 +2226,13 @@
     "@tryghost/member-events" "0.4.0"
     moment-timezone "0.5.34"
 
-"@tryghost/members-importer@0.5.3":
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/@tryghost/members-importer/-/members-importer-0.5.3.tgz#d43ee2bffdb8921647cdc1cbaa135b8af441bff3"
-  integrity sha512-pWiEKKeQdwJd9S3qCedNe9yqkqSkSrbcJFjE9Rt+eoQQcBYKs/l1oGS9WQ8OYH+42gt5PEX91Qj1mX34ZHw6sA==
+"@tryghost/members-importer@0.5.4":
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/@tryghost/members-importer/-/members-importer-0.5.4.tgz#5fbae37978a34dac5409d325e497eabc11583387"
+  integrity sha512-JTChfL/q6D2Ngz97qrIyoAj6Z44m1nxNw7NNBtsD9QQ6IDquNy1bxZ78YnUSdXk8EXOK/+pr8XjnSN4vNXS3og==
   dependencies:
     "@tryghost/errors" "^1.0.0"
-    "@tryghost/members-csv" "^1.2.6"
+    "@tryghost/members-csv" "^1.2.7"
     "@tryghost/tpl" "^0.1.3"
     moment-timezone "0.5.23"
 
