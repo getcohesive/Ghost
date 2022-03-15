@@ -1740,12 +1740,12 @@
     "@tryghost/errors" "^0.2.10"
     lodash "^4.17.11"
 
-"@tryghost/bookshelf-collision@^0.1.14":
-  version "0.1.14"
-  resolved "https://registry.yarnpkg.com/@tryghost/bookshelf-collision/-/bookshelf-collision-0.1.14.tgz#00ac3d041857ac2ae8c33ae2b1010e1de405c2b4"
-  integrity sha512-7M4KsXWNEgLocM5SmV1gs1ANIL27XeDhAnGmmOp2VtzunmJ4+/sqmE2MGEh8wTbNzLiG+S7iFgyp943Oprv+9g==
+"@tryghost/bookshelf-collision@^0.1.15":
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/@tryghost/bookshelf-collision/-/bookshelf-collision-0.1.15.tgz#f3b63340e8fbcea4efc08d6c42400df1dd99f244"
+  integrity sha512-+RVEP/LUrO0anrp7q8rDA7HXu3JIOB4HeTMcN0Djv4yZ524AshPJRuKvzntil2rS+K26xhnpM3f/Hd6XzFEkiw==
   dependencies:
-    "@tryghost/errors" "^1.2.4"
+    "@tryghost/errors" "^1.2.5"
     lodash "^4.17.21"
     moment-timezone "^0.5.33"
 
@@ -1762,13 +1762,13 @@
     "@tryghost/debug" "^0.1.13"
     lodash "^4.17.21"
 
-"@tryghost/bookshelf-filter@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@tryghost/bookshelf-filter/-/bookshelf-filter-0.4.0.tgz#769233c8c9aa0dfe97b999e8918d5a6517e1f35c"
-  integrity sha512-C5p1USo1sRM50fRN8vK9iJDaJegQAmDESoIXsd2ggeqEZKo/VkKWUhigFaAoXdSbhfV2DfGN+LgNtmNJVS8D0Q==
+"@tryghost/bookshelf-filter@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@tryghost/bookshelf-filter/-/bookshelf-filter-0.4.1.tgz#7082a85379ffdd803d3372032671b897772ad561"
+  integrity sha512-yhsBSM/8etu8vpDiZ3LdRJLEAZLfSqEGdJqU1IuWP5apXu5EqFhfAGgENoQu2ZQK/Sf46rJVbIDxTaIi1VfDCw==
   dependencies:
     "@tryghost/debug" "^0.1.13"
-    "@tryghost/errors" "^1.2.4"
+    "@tryghost/errors" "^1.2.5"
     "@tryghost/nql" "^0.9.0"
     "@tryghost/tpl" "^0.1.12"
 
@@ -1795,28 +1795,28 @@
   dependencies:
     lodash "^4.17.21"
 
-"@tryghost/bookshelf-pagination@^0.1.15":
-  version "0.1.15"
-  resolved "https://registry.yarnpkg.com/@tryghost/bookshelf-pagination/-/bookshelf-pagination-0.1.15.tgz#f55c71c3befdab14cda7936edbaa7e036f993511"
-  integrity sha512-iuCZ7/tdN712F+4lo7W/C5X8u+g1dtsIw7G+n+hoG0ktRpINb8RMdhmvE/RGY0JaZMWCIN5QFq+l6yYAwWzYUg==
+"@tryghost/bookshelf-pagination@^0.1.16":
+  version "0.1.16"
+  resolved "https://registry.yarnpkg.com/@tryghost/bookshelf-pagination/-/bookshelf-pagination-0.1.16.tgz#6d1e4ffb47f7389515adf5c7886d05d763b10d77"
+  integrity sha512-U5f4igjBM35+qvMCZzIZ7mZgfwisnNDdYCUgMw1Ie3c74eAxz4eM+KC+Hn1hhQHvX0fzXlzHUlLDEAfOIohZYA==
   dependencies:
-    "@tryghost/errors" "^1.2.4"
+    "@tryghost/errors" "^1.2.5"
     "@tryghost/tpl" "^0.1.12"
     lodash "^4.17.21"
 
-"@tryghost/bookshelf-plugins@0.3.11":
-  version "0.3.11"
-  resolved "https://registry.yarnpkg.com/@tryghost/bookshelf-plugins/-/bookshelf-plugins-0.3.11.tgz#1117ce4136ae2613af2aa505c46bf413afe20a01"
-  integrity sha512-RpbBJzpGN4CYwUbLLfJRAiMo1NNUxJskyrQULzPIX/c0L9ru9QbojTVZypYpOgbAWLBk9+jQSyKKEVgs6mSmsA==
+"@tryghost/bookshelf-plugins@0.3.12":
+  version "0.3.12"
+  resolved "https://registry.yarnpkg.com/@tryghost/bookshelf-plugins/-/bookshelf-plugins-0.3.12.tgz#a5d1b7aa93f521a1e6e29a7182b5e3d606d29547"
+  integrity sha512-B58XIvhRrq+Kty/E9r6+AjNQtT9QZEL6gD2sfiZiZAo/rrrb4oeD8yMf1G4hcxTxMfGID5y5fYPff/+hj84mXQ==
   dependencies:
-    "@tryghost/bookshelf-collision" "^0.1.14"
+    "@tryghost/bookshelf-collision" "^0.1.15"
     "@tryghost/bookshelf-custom-query" "^0.1.11"
     "@tryghost/bookshelf-eager-load" "^0.1.12"
-    "@tryghost/bookshelf-filter" "^0.4.0"
+    "@tryghost/bookshelf-filter" "^0.4.1"
     "@tryghost/bookshelf-has-posts" "^0.1.13"
     "@tryghost/bookshelf-include-count" "^0.1.13"
     "@tryghost/bookshelf-order" "^0.1.11"
-    "@tryghost/bookshelf-pagination" "^0.1.15"
+    "@tryghost/bookshelf-pagination" "^0.1.16"
     "@tryghost/bookshelf-search" "^0.1.11"
     "@tryghost/bookshelf-transaction-events" "^0.1.11"
 
@@ -1954,7 +1954,7 @@
     lodash "^4.17.21"
     uuid "^8.3.2"
 
-"@tryghost/errors@1.2.5":
+"@tryghost/errors@1.2.5", "@tryghost/errors@^1.2.5":
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/@tryghost/errors/-/errors-1.2.5.tgz#e3dd6a462364f899e5267e282fe690ecfbdb4ea2"
   integrity sha512-6lsnonu7XI556Sg8j8Svlmaoen6DVVnRch3sPFu2Ugohbprzz3eQiJzNXXXaeIRgwBkTcSPHErYNMIf3fiI5Aw==
